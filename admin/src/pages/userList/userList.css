@@ -1,0 +1,104 @@
+.userList
+{
+    flex: 4;
+}
+
+.userListUser
+{
+    display: flex;
+    align-items: center;
+}
+
+.userListImg
+{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.userListEdit {
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+    background-color: #3bb077;
+    color: white;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.userListDelete
+{
+    color: red;
+    cursor: pointer;
+}
+
+.userUpdateForm
+{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.userUpdateTitle
+{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.userUpdateItem
+{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.userUpdateItem>label{
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+.userUpdateInput
+{
+    border: none;
+    border-bottom: 1px solid gray;
+    width: 250px;
+    height: 30px;
+}
+
+.userUpdateInput:focus
+{
+    outline: none;
+}
+.userUpdateRight
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.userUpdateUpload
+{
+    display: flex;
+    align-items: center;
+}
+
+.userUpdateIcon
+{
+    cursor: pointer;
+}
+
+.userUpdateButton
+{
+    border: none;
+    border-radius: 5px;
+    background-color: darkblue;
+    color: white;
+    padding: 5px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.userShow
+{
+    flex: 1.25 !important;
+}
